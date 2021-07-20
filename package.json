@@ -3,7 +3,6 @@
   "version": "2.19.3",
   "description": "A Collection of Color Pickers from Sketch, Photoshop, Chrome & more",
   "main": "lib/index.js",
-  "module": "es/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/casesandberg/react-color.git"
@@ -102,9 +101,8 @@
     "webpack-dev-server": "^1.10.1"
   },
   "files": [
-    "lib",
-    "es"
-  ],
+    "lib"
+   ],
   "jest": {
     "rootDir": "src",
     "testRegex": "spec.js$"
