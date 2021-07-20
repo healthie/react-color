@@ -13,15 +13,6 @@ const esBabelRC = {
     'stage-0',
     'react',
   ],
-  plugins: [
-    [
-      'transform-rename-import',
-      {
-        'original': 'lodash',
-        'replacement': 'lodash-es',
-      },
-    ],
-  ],
 }
 
 fs.writeFileSync(path.join(__dirname, '../.babelrc'), JSON.stringify(esBabelRC))
